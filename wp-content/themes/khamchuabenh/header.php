@@ -443,4 +443,4 @@
             </div>
         </div>
     </nav>
-</header><div class="main-content main-homepage container">
+</header><div class="main-content container">
