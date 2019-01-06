@@ -1,0 +1,305 @@
+/*
+Theme Name: MixColors
+Theme URI: http://mixcolors.vn
+Author: MixColors
+Author URI: http://mixcolors.vn
+Description: Our 2016 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.0
+Tags: html, css, wordpress, woocommrece, responsive, tablet, mobile, mixcolors, good seo
+Text Domain: mixcolors
+*/
+.pagination {
+	text-align:center;
+	display:block;
+}
+.pagination > a, .pagination  > span {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #337ab7;
+    line-height: 1.42857;
+    margin: 0 5px;
+    padding: 6px 12px;
+    position: relative;
+    text-decoration: none;
+}
+.error {
+	border:1px solid #ff0000;
+}
+.fb_iframe_widget {
+	display:block !Important;
+	overflow:hidden;
+}
+.acf-map {
+	margin-bottom:20px;
+}
+.list-category {
+	letter-spacing:-0.3em;
+	margin:0 -15px;
+}
+.list-category .item-category{
+	letter-spacing:normal;
+	display:inline-block;
+	width:50%;
+	padding:0 15px;
+	vertical-align:top;
+	margin-bottom:15px;
+}
+.to-category {
+	margin:50px 0 20px;
+}
+.to-category a.more-all {
+	border-radius:0;
+	padding:10px 25px;
+}
+.captchar-result {
+	background:#fff;
+	padding:13px 10px;
+	text-align:center;
+}
+#loginform label,#registerForm label {
+	width:100px;
+}
+#loginform p.login-remember label {
+	width:auto;
+}
+#wp-submit,#registerForm input[type="submit"] {
+	background: #0368b8 none repeat scroll 0 0;
+    border: 1px solid #0368b8;
+    color: #fff;
+    font-size: 13px;
+    padding:10px 25px;
+}
+.slider-feedback {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.slider-feedback img {
+	width:100%;
+	height:auto;
+}
+#popup-start {
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:999999;
+}
+#popup-start .bg-popup {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background:#000;
+	opacity:0.8;
+}
+#popup-start .inner-popup {
+	position:fixed;
+	top:100px;
+	bottom:100px;
+	left:15%;
+	right:15%;
+	color:#fff;
+}
+#popup-start .inner-popup .close-popup {
+	font-size:24px;
+	position:absolute;
+	top:5px;
+	right:10px;
+	color:#fff;
+}
+#popup-start .inner-popup .content-popup {
+	padding:30px;
+}
+#grad.grad-home {
+	margin-top:0;
+}
+.section-custom .col-sm-9 {
+	width:71%;
+}
+.section-custom .col-sm-3 {
+	width:29%;
+}	
+.header nav {
+	height:44px;
+}
+.header nav .container {
+	padding:0;
+}
+.header nav .navbar.fixed {
+	top:0;
+	position:fixed;
+	z-index:99999;
+	left:0;
+	right:0;
+}
+.list-new-home {
+	padding:0;
+	list-style:none;
+	margin:10px 0 0;
+}
+.list-new-home li {
+	margin:5px 0;
+}
+.list-new-home li a {
+	color:#0368b8;
+	font-size:14px;
+}
+.newsletter {
+	margin-top:15px;
+}
+.newsletter p {
+	max-width:100%;
+}
+#newsletter .form-control {
+	width:100%;
+	height:30px;
+	border-radius:0;
+}
+#newsletter input[type="submit"] {
+	width:100%;
+	text-align:center;
+	border:none;
+	background:#0368B8;
+	color:#fff;
+	cursor:pointer;
+	padding:10px;
+}
+#newsletter input[type="submit"]:hover {
+	background:#063E80;
+}
+.a2a_button_facebook_like.addtoany_special_service {
+	width:94px !important;
+}
+p.error {
+	color:#ff0000;
+	border:none;
+}
+.info-user {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+}
+/* Sub menu */
+.nav > li > ul li {
+	position:relative;
+}
+.nav > li > ul  ul {
+	position:absolute;
+	top:0;
+	left:100%;
+	width:250px;
+	background:#A4CE39;
+	list-style:none;
+	padding:0;
+}
+.section-home1 .bx-viewport {
+    background: #0368b8;
+}
+.item-faq .text-right {
+	margin-top:20px;
+}
+.list-category iframe {
+	width:100%;
+	height:200px;
+}
+.single iframe {
+	width:100%;
+	height:500px;
+}
+.full-content {
+	display:none;
+}
+.nav > li > ul  ul a {
+	display: block;
+    font-size: 16px;
+    padding: 5px 15px;
+}
+.nav li:hover ul {
+	display:block;
+}
+.nav li:hover ul ul{
+	display:none;
+}
+.nav li li:hover ul{
+	display:block;
+}
+.nav li li:hover ul ul{
+	display:none;
+}
+.nav li li li:hover ul{
+	display:block;
+}
+.nav li li li:hover ul ul{
+	display:none;
+}
+.nav li li li li:hover ul{
+	display:bock;
+}
+.nav li li li li li:hover ul ul{
+	display:none;
+}
+.nav li li li li li li:hover ul{
+	display:block;
+}
+.navbar-collapse {
+	position:relative;
+	z-index:99999;
+}
+.done {
+	color:green;
+}
+@media (max-width: 420px) {
+	.header nav {
+		height:auto;
+	}
+}
+.page-template-faq .text-center #grad {
+	margin-bottom:30px;
+}
+.page-template-faq .pagination {
+	margin-left:0;
+}
+.search-results a.more-link {
+	font-weight:bold;
+	color:#33689B;
+}
+/* Add style Image Content */
+.aligncenter {
+	display:block;
+	margin:0 auto;
+}
+.alignright {
+	float:right;
+}
+.alignleft {
+	float:left;
+}
+/* Style form popup */
+.content-popup form {
+	padding:30px 0;
+}	
+.content-popup form input {
+	width:100%;
+	padding:0 9px;
+	box-sizing:border-box;
+	height:30px;
+}
+.content-popup form textarea {
+	width:100%;
+	padding:9px;
+	box-sizing:border-box;
+	height:150px;
+}
+.content-popup form input[type="submit"] {
+	width:auto;
+	padding:10px 30px;
+	cursor:pointer;
+	background:#155B8A;
+	color:#fff;
+	border:none;
+	height:auto;
+}
